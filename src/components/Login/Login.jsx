@@ -13,7 +13,9 @@ const Login = ({setNavOpen}) => {
   return (
     <div className='container'>
       <div className="header">
+        <div className="loginhead">
         <h1>Login</h1>
+        </div>
         <div className="underline"></div>
       </div>
       <div className="inputs">
