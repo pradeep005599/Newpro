@@ -1,0 +1,18 @@
+
+.firstleft{
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+}
+.firstleft h1{
+    font-size: 26px;
+
+}
+.firstleft h3{
+    font-size: 18px;
+}
+.topcontent{
+    padding: 10px 0 10px 0;
+}

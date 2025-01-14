@@ -1,0 +1,28 @@
+.mainBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    background-color: #0999fab1;
+    padding: 10px 20px;
+}
+.list{
+    width: 25%;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+ .link:hover { 
+    background-color: #575757;
+    border-radius: 4px;
+
+}
+.listlogo{
+    background: none;
+}

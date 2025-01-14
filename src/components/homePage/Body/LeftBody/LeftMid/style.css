@@ -1,0 +1,22 @@
+.leftmid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+.leftmidone{
+    
+    border: 1px solid red;
+}
+.leftmidtwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid salmon;
+    height: 105px;
+    width: 50%;
+}
+.venue{
+    border: 1px solid sienna;
+    
+}

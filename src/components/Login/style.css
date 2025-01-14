@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 500px;
+    padding-bottom: 20px;
+    width: 600px;
+    background: linear-gradient(180deg, #a1f8f5 0%, #bed0c3e6 100%);
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+h1{
+    font-size: 30px;
+    color: #4c00b4;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 50px;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background: #4c00b4;
+    border-radius: 9px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+    
+}
+.input{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.input img{
+    margin:0px 30px;
+}
+.input input{
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #797979;
+}
+.forget{
+    padding-left: 60px;
+    margin-top: 25px;
+    color: #797979;
+    font-size: 18px;
+    cursor: pointer;
+}
+.loginbtn{
+    display: flex;
+    gap: 30px;
+    margin: 60px 0px;
+}
+.loginbtn button{
+    width: 170px;
+    height: 50px;
+    background: #4c00b4;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
