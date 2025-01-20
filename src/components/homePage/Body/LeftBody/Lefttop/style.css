@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 15vh;
+    margin-bottom: 55px;
 }
 .firstleft h1{
     font-size: 26px;

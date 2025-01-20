@@ -3,10 +3,11 @@ import './App.css';
 import HomePage from './components/homePage/HomePage';
 import About from './components/About/About';
 import NavBar from './components/homePage/navBar/NavBar';
-import Content from './components/Contect/Content';
+
 import Help from './components/Help/Help';
 import Login from './components/Login/Login';
 import { useState } from 'react';
+import Contact from './components/Contact/Contact';
 
 function App() {
     const [navOpen, setNavOpen] = useState(true);
@@ -18,7 +19,7 @@ function App() {
                 <Route path='/Login' element={<Login setNavOpen={setNavOpen}/>} />
                 <Route path='/' element={<HomePage/>} />
                 <Route path='/about' element={<About/>} />
-                <Route path='/content' element={<Content/>} />
+                <Route path='/contact' element={<Contact/>} />
                 <Route path='/help' element={<Help/>} />
             </Routes>
         </BrowserRouter>

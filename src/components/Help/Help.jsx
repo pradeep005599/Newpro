@@ -1,10 +1,16 @@
 import React from 'react'
+import HelpTop from './HelpTop/HelpTop'
+import HelpMain from './HeplMain/HelpMain'
 
 
 const Help = () => {
   return (
     <div>
-    help
+      <>
+      <HelpTop />
+      <HelpMain />
+      </>
+    
     </div>
   )
 }

@@ -1,0 +1,38 @@
+.helpmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.helpcard{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    color: #333;
+    width: 35%;
+    height: 100px;
+   
+}
+.helpcardtittle{
+    font-size: 23px;
+    font-weight: 600;
+    color: #333;
+}
+.helpcardimg{
+    font-size: 35px;
+}
+.heplcardinfo{
+    font-size: 16px;
+    color: #4c4444d3;
+}
+.helpcard:hover{
+    background-color: #f9f9f9;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}

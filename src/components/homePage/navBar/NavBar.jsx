@@ -14,8 +14,8 @@ const NavBar = () => {
         <div className="list">
         <Link className="link" to="/">Home</Link>
         <Link className="link" to="/about">About</Link>
-        <Link className="link" to="/">Contact</Link>
-        <Link className="link" to="/">Help</Link>
+        <Link className="link" to="/contact">Contact</Link>
+        <Link className="link" to="/help">Help</Link>
         </div>
         <div className="listlogo">
         <button onClick={()=>{setsidebaropen(!sidebaropen)}}><svg

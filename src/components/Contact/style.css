@@ -1,11 +1,7 @@
-.bottom{
+.contactmain{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.bottomone{
-    text-align: center;
-}
-.end{
-    margin-top: 55px;
+    margin: 11%;
+    height: 42vh;   
 }
